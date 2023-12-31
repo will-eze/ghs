@@ -1,0 +1,25 @@
+<!-- Owner: William Eze (willz.eze2023@gmail.com)-->
+<!--Made for the use of DLBC Plaistow-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read CSV File</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="ghs_title_container" onclick="copyTextToClipboard(document.getElementById('ghs_title').innerHTML)">
+            <h1 id="ghs_title"></h1>
+        </div>
+        <h1 id="ghs_title"></h1>
+        <input id="ghs_id" type="text" oninput="ghsSearch()" min="1" max="260">
+        <button onclick="copyTextToClipboard(document.getElementById('ghs_lyrics').innerText)">Copy lyrics</button>
+        <p id="ghs_lyrics"></p>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>

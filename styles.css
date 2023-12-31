@@ -1,0 +1,9 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #d3d3d3;
+    padding-left: 20px;
+}
+
+.ghs_title_container :hover{
+    cursor: pointer;
+}
